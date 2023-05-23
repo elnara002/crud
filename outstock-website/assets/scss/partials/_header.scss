@@ -1,0 +1,32 @@
+ul{
+    li{
+        list-style: none;
+        display: inline-block;
+        a{
+            margin-left: 13px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+sup{
+    font-size: 10px;
+}
+nav{
+    text-align: center;
+    button{
+        border: none;
+        background-color: transparent;
+    }
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://outstock-vue.vercel.app/_nuxt/slider-1.9ccbaa17.jpg");
+    .head-text{
+        width: 40%;
+        margin: 10% 80px;
+    }
+}

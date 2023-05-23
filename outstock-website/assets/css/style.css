@@ -1,0 +1,142 @@
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul li a {
+  margin-left: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+sup {
+  font-size: 10px;
+}
+
+nav {
+  text-align: center;
+}
+nav button {
+  border: none;
+  background-color: transparent;
+}
+
+header {
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://outstock-vue.vercel.app/_nuxt/slider-1.9ccbaa17.jpg");
+}
+header .head-text {
+  width: 40%;
+  margin: 10% 80px;
+}
+
+.acs-img {
+  width: 100%;
+  height: 50vh;
+}
+
+#Bowl {
+  position: relative;
+}
+
+.prdct-image {
+  position: absolute;
+  margin: 60px 50px;
+}
+
+.item {
+  margin: 55px 20px;
+}
+
+.products {
+  left: 10%;
+  bottom: -20%;
+  background-color: rgb(255, 255, 255);
+}
+.products .col-4 img {
+  width: 98%;
+}
+
+.trend::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  right: 80px;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.trend::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  left: 70px;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+.trend {
+  margin-top: 15%;
+  position: relative;
+}
+
+#load {
+  margin: 30px 42%;
+  outline: 2px solid rgb(213, 213, 213);
+  border: none;
+  background-color: transparent;
+  padding: 10px 60px;
+}
+#load:hover {
+  background-color: rgb(192, 134, 75);
+  outline: 2px solid rgb(192, 134, 75);
+  color: white;
+}
+
+#bg-color {
+  background-color: black;
+  height: 70vh;
+  padding-top: 6.5em;
+}
+#bg-color h2 {
+  color: rgb(189, 132, 72);
+  margin-bottom: 17px;
+}
+#bg-color p {
+  color: rgb(139, 139, 149);
+}
+#bg-color p a {
+  text-decoration: none;
+  color: rgb(139, 139, 149);
+}
+#bg-color h4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-brown {
+  color: rgb(192, 134, 75);
+}
+
+.btnn {
+  margin-top: 5px;
+  outline: 2px solid black;
+  border: none;
+  background-color: transparent;
+  padding: 10px 40px;
+}
+.btnn:hover {
+  background-color: rgb(192, 134, 75);
+  outline: 2px solid rgb(192, 134, 75);
+}
+.btnn:hover span {
+  color: white;
+}
+
+.text-grey {
+  color: rgb(132, 139, 138);
+}/*# sourceMappingURL=style.css.map */

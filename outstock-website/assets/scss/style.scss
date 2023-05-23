@@ -1,0 +1,26 @@
+@import 'partials/header';
+@import 'partials/accessories';
+@import 'partials/trending';
+@import 'partials/footer';
+
+ 
+.text-brown{
+    color: rgb(192,134,75);
+}
+.btnn{
+    margin-top: 5px;
+    outline: 2px solid black;
+    border: none;
+    background-color: transparent;
+    padding:10px 40px;
+    &:hover{
+        background-color: rgb(192,134,75);
+        outline: 2px solid rgb(192,134,75); 
+        span{
+            color: white;
+        }   
+    }
+    }
+.text-grey{
+    color: rgb(132,139,138);
+}
